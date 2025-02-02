@@ -211,13 +211,17 @@
         flex-direction: row;
     }
 
+    .main > * {
+        width: 50%;
+       }
+
     .main__text > p {
         height: 55%;
     }
     
-    .main__foto {
+    /* .main__foto {
         width: 50%;
-    }
+    } */
 
 }
 
@@ -260,7 +264,5 @@
     }
 
     .main__text > p {
-        width: 77%;
-        height: 70%;
+        height: 75%;
     }
-}
