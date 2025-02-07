@@ -44,8 +44,10 @@
 }
 
 .button:hover {
+    transition: opacity, transform 0.6s;
+    transform: scale(110%);
     opacity: 0.5;
-   }
+}
 
 .header__logo {
     width: 97px;
