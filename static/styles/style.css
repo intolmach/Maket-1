@@ -398,5 +398,6 @@
 }
 
 .mobile-lang li:hover{
+    cursor: pointer;
     color: #7E7E82;
 }
