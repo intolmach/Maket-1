@@ -51,7 +51,8 @@
 }
 
 .button:active {
-   background-image: #41F6D7;
+    opacity: 1;
+    filter: hue-rotate(215deg);
 }
 
 .header__logo {
