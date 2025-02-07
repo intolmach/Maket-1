@@ -44,13 +44,14 @@
 }
 
 .button:hover {
-    transition: opacity, transform 0.6s;
+    cursor: pointer;
+    transition: opacity, transform 0.4s;
     transform: scale(110%);
     opacity: 0.5;
 }
 
 .button:active {
-   background-color: #41F6D7;
+   background-image: #41F6D7;
 }
 
 .header__logo {
@@ -332,7 +333,7 @@
 .mobile-nav__item:hover {
     padding-left: 16px;
     border-left: 4px solid #41F6D7;
-    transition: border-left 0.6s;
+    transition: border-left 0.4s;
     color: #7E7E82;
 }
 
