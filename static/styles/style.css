@@ -51,8 +51,8 @@
 }
 
 .button:active {
-    opacity: 1;
     filter: hue-rotate(215deg);
+    opacity: 1;
 }
 
 .header__logo {
@@ -332,6 +332,7 @@
 }
 
 .mobile-nav__item:hover {
+    cursor: pointer;
     padding-left: 16px;
     border-left: 4px solid #41F6D7;
     transition: border-left 0.4s;
