@@ -49,6 +49,10 @@
     opacity: 0.5;
 }
 
+.button:active {
+   background-color: #41F6D7;
+}
+
 .header__logo {
     width: 97px;
     height: 51px;
@@ -306,7 +310,7 @@
     height: 51px;
     object-fit: contain;
 }
-nav {
+.navigator {
     flex-grow: 1;
 }
 
