@@ -549,6 +549,11 @@
 
 
 @media (min-width: 1120px) {
+
+    .swiper-header__title {
+        padding: 16px 32px;
+    }
+
     .swiper-list {
         grid-template-columns: repeat(4, 240px) !important;
         column-gap: 32px;
