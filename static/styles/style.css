@@ -550,7 +550,7 @@
 
 @media (min-width: 1120px) {
     .swiper-list {
-        grid-template-columns: repeat(4, 224px) !important;
+        grid-template-columns: repeat(4, 240px) !important;
         column-gap: 32px;
     }
 
